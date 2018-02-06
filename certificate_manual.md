@@ -8,7 +8,11 @@
 
 ## 2. AliOS Things API 兼容性认证指南
 
-sf 
+AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件平台后保持良好的兼容性，AliOS Things提供API兼容性测试用例集，用户将用例集移植到硬件平台后，通过工具导出API兼容性测试报告。详细测试步骤见下文。
+
+#### 2.1 
+
+### 2.2 下载测试源码
 
 ## 3. Wi-Fi SoC 认证指南
 
