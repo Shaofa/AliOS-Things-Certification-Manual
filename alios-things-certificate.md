@@ -1,1 +1,0 @@
-# AliOS Things 认证规范
