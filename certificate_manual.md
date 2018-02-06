@@ -24,6 +24,8 @@ AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件�
       |___cut.h
 ```
 
+> `aos_test.c`与`rhino_test.c`功能相同，rhino\_test.c针对只移植了rhino微内核的MCU，通常二者选其一
+
 ### 2.2 移植测试用例集
 
 #### 2.2.1 修改测试用例集源码
@@ -53,7 +55,15 @@ AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件�
 
 #### 2.2.2 gcc编译
 
+API测试用例集默认使用GCC编译，用户只需要执行以下简单命令就能生成测试固件，编译得到的固件在{AliOS-Things-Root}/out目录下
+
+```
+$ aos make yts@{board} test=certificate
+```
+
 #### 2.2.3 Keil/IAR编译
+
+API测试用例集默认使用GCC编译，但是可以移植到Keil/IAR工程中。测试用例集的函数调用入口在aos\_test.c
 
 ### 2.3 导出测试报告
 
