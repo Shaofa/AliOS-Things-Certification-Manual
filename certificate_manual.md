@@ -61,11 +61,20 @@ API测试用例集默认使用GCC编译，用户只需要执行以下简单命�
 $ aos make yts@{board} test=certificate
 ```
 
+> 针对只移植了rhino微内核的暂时无法使用gcc编译方式
+
 #### 2.2.3 Keil/IAR编译
 
-API测试用例集默认使用GCC编译，但是可以移植到Keil/IAR工程中。测试用例集的函数调用入口在aos\_test.c
+API测试用例集默认使用GCC编译，但是可以移植到Keil/IAR工程中，测试用例集的函数调用入口如下：
+
+```cpp
+/* 将aos_test.c和cutest 或者 rhino_test.c和cutest 移植到Keil/IAR工程中，并调用该接口 */
+void certificate_test(void);
+```
 
 ### 2.3 导出测试报告
+
+
 
 ## 3. Wi-Fi SoC 认证指南
 
