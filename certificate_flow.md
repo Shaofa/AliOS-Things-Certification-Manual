@@ -4,11 +4,11 @@
 
 # 1. 整体流程
 
-#                        ![](/assets/certification_flowchart1.png) 
+# ![](/assets/certification_flowchart1.png)
 
 # 2. 商家流程
 
-![](/assets/certification_flowchart.png)
+![](/assets/certification_flowchart2.png)
 
 > AliOS Things认证规范：www.alibaba.com
 >
