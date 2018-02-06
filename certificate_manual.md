@@ -8,7 +8,7 @@
 
 ## 2. AliOS Things API 兼容性认证指南
 
-
+sf 
 
 ## 3. Wi-Fi SoC 认证指南
 
