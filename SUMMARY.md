@@ -5,5 +5,3 @@
 * [2. AliOS Things 通道测试规范](afds-sdf-sdf.md)
 * 3. AliOS Things FOTA测试规范
 
-
-
