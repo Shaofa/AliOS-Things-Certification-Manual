@@ -1,4 +1,4 @@
-# AliOS Things 认证指南
+# AliOS Things 自测指南
 
 ---
 
@@ -96,9 +96,9 @@ IoT调试测试工具使用如下：
 
 ### 3.1 API兼容性测试
 
-见**`2. AliOS Things API 兼容性认证指南`**
+见`2. AliOS Things API 兼容性认证指南`
 
-### 3.2 
+### 3.2
 
 ## 4. Wi-Fi + MCU 认证指南
 

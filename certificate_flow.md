@@ -2,5 +2,17 @@
 
 ---
 
+# 1. 商家流程
+
 ![](/assets/certification_flowchart.png)
+
+> AliOS Things认证规范：www.alibaba.com
+>
+> AliOS Things认证测试报告：www.alibaba.com
+>
+> AliOS Things认证申请表：www.alibaba.com
+
+# 2.
+
+
 
