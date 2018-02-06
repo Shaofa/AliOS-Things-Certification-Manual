@@ -9,5 +9,5 @@
 * AliOS Things FOTA测试
 * AliOS Things 安全测试等
 
-在申请认证服务之前用户需要自测，自测的用例和自测指南详见后文。请首先阅读[AliOS Things 认证流程](/certificate_flow.md)和[AliOS Things认证指南](/certificate_manual.md)，了解认证服务的整体流程和认证需要自测的测试项。
+在申请认证服务之前用户需要自测，自测的用例和自测指南详见后文。请首先阅读[AliOS Things 认证流程](/certificate_flow.md)和[AliOS Things自测指南](/certificate_manual.md)，了解认证服务的整体流程和认证需要自测的测试项。
 
