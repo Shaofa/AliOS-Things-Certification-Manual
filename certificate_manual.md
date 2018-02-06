@@ -16,6 +16,35 @@ AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件�
 
 ### 2.2 移植测试用例集
 
+#### 2.2.1 修改测试用例集源码
+
+测试用例集中设置如下配置项，用户可以根据MCU RAM和移植情况修改配置项，各配置项说明如下：
+
+| 配置项 | 配置说明 | 默认配置项 |
+| :--- | :--- | :--- |
+| SYSINFO\_MCU | 待测MCU型号 | 空（必填） |
+| SYSINFO\_ARCH | 待测MCU架构 | 空（必填） |
+| SYSINFO\_BORAD | 待测开发板型号 | 空（必填） |
+| TEST\_CONFIG\_MM\_ENABLED | 内存管理测试使能 | 1 |
+| TEST\_CONFIG\_MALLOC\_MAX\_SIZE | 堆内存分配最大值\(Byte\) | 1024 |
+| TEST\_CONFIG\_MALLOC\_FREE\_TIMES | 反复分配/释放堆内存次数 | 100000 |
+| TEST\_CONFIG\_TASK\_ENABLED | 任务管理测试使能 | 1 |
+| TEST\_CONFIG\_STACK\_SIZE | 任务栈大小\(Byte\) | 1024 |
+| TEST\_CONFIG\_MAX\_TASK\_COUNT | 创建最大任务数 | 10 |
+| TEST\_CONFIG\_CREATE\_TASK\_TIMES | 反复创建/销毁任务次数 | 10000 |
+| TEST\_CONFIG\_TASK\_COMM\_ENABLED | 任务间通信测试使能 | 1 |
+| TEST\_CONFIG\_SYNC\_TIMES | 任务间同步次数 | 100000 |
+| TEST\_CONFIG\_TIMER\_ENABLED | 定时器测试使能 | 1 |
+| TEST\_CONFIG\_KV\_ENABLED | KV测试使能 | 1 |
+| TEST\_CONFIG\_KV\_TIMES | 反复读写KV次数 | 10000 |
+| TEST\_CONFIG\_YLOOP\_ENABLED | Yloop测试使能 | 1 |
+| TEST\_CONFIG\_YLOOP\_EVENT\_COUNT | 注册Yloop事件数量 | 1000 |
+| TEST\_CONFIG\_YLOOP\_LOOP\_COUNT | 最大创建Yloop数量 | 10 |
+
+#### 2.2.2 gcc编译
+
+#### 2.2.3 Keil/IAR编译
+
 ### 2.3 导出测试报告
 
 ## 3. Wi-Fi SoC 认证指南
