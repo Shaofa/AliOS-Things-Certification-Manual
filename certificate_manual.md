@@ -6,10 +6,10 @@
 
 ![](/res/certificate_framework.png)
 
-> **AliOS Things API兼容性测试：**所有类型的芯片都需要测试的基础项
-> **协议相关测试**：只针对WiFi SoC和蓝牙SoC
-> **通道测试**：AliOS Things中集成连接阿里云的通道能力，只针对Wi-Fi SoC、MCU+Wi-Fi类型
-> **FOTA测试**：针对移植了通道能力的芯片
+> **AliOS Things API兼容性测试：**所有类型的芯片都需要测试的基础项  
+> **协议相关测试**：只针对WiFi SoC和蓝牙SoC  
+> **通道测试**：AliOS Things中集成连接阿里云的通道能力，只针对Wi-Fi SoC、MCU+Wi-Fi类型  
+> **FOTA测试**：针对移植了通道能力的芯片  
 > **安全测试**：针对移植ID2全套安全能力的芯片
 
 ## 2. AliOS Things API 兼容性认证指南
@@ -94,13 +94,21 @@ IoT调试测试工具使用如下：
 
 ## 3. Wi-Fi SoC 认证指南
 
+### 3.1 API兼容性测试
+
+见**`2. AliOS Things API 兼容性认证指南`**
+
+### 3.2 
+
 ## 4. Wi-Fi + MCU 认证指南
 
 ## 5. MCU 认证指南
 
 ## 6. 蓝牙 SoC 认证指南
 
+即将上线...
+
 ## 7. LoRa MCU 认证指南
 
-[^1]: Enter footnote here.
+即将上线...
 
