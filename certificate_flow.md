@@ -2,7 +2,11 @@
 
 ---
 
-# 1. 商家流程
+# 1. 整体流程
+
+#                        ![](/assets/certification_flowchart1.png) 
+
+# 2. 商家流程
 
 ![](/assets/certification_flowchart.png)
 
