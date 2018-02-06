@@ -1,4 +1,9 @@
 # Summary
 
-* [Introduction](README.md)
+* [0. Introduction](README.md)
+* [1. AliOS Things API兼容性测试规范](alios-thingsren-zheng-liu-cheng.md)
+* [2. AliOS Things 通道测试规范](afds-sdf-sdf.md)
+* 3. AliOS Things FOTA测试规范
+
+
 
