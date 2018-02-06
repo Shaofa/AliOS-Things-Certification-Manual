@@ -98,17 +98,31 @@ IoT调试测试工具使用如下：
 
 见`2. AliOS Things API 兼容性认证指南`
 
-### 3.2
+### 3.2 用例生成
 
 ## 4. Wi-Fi + MCU 认证指南
 
+### 4.1 API兼容性测试
+
+见`2. AliOS Things API 兼容性认证指南`
+
+### 4.2 用例生成
+
 ## 5. MCU 认证指南
+
+### 5.1 API兼容性测试
+
+见`2. AliOS Things API 兼容性认证指南`
 
 ## 6. 蓝牙 SoC 认证指南
 
-即将上线...
+### 6.1 API兼容性测试
+
+见`2. AliOS Things API 兼容性认证指南`
 
 ## 7. LoRa MCU 认证指南
 
-即将上线...
+### 7.1 API兼容性测试
+
+见`2. AliOS Things API 兼容性认证指南`
 

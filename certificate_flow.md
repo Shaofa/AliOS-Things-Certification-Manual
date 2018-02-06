@@ -16,7 +16,5 @@
 >
 > AliOS Things认证申请表：www.alibaba.com
 
-# 2.
-
 
 
