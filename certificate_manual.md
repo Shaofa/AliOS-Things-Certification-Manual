@@ -74,7 +74,15 @@ void certificate_test(void);
 
 ### 2.3 导出测试报告
 
+测试固件在开发板上成功运行后，使用[IoT调试测试工具](http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT%E8%B0%83%E8%AF%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.exe)将测试结果导出为PDF文档，该文档将作为AliOS Things API兼容性测试报告在认证申请阶段提交。
 
+IoT调试测试工具使用如下：
+
+1. 选择设备串口号、波特率、数据位、停止位、校验位
+2. 打开设备，如果打开设备成功，`打开设备`按钮将变为\`关闭设备”
+3. 操作开发板将设备重启，如果连接正常，软件将显示如下图，确认MCU、ARCH、开发板、内核版本无误后等待测试结束
+4. 测试过程中，显示测试进度、用例执行情况、测试用例集的配置信息等
+5. 测试成功后，`导出测试报告`将使能，用户可导出PDF格式的测试报告，见下图![](/assets/certification_api_tool.png)![](/assets/certification_api_tool2.png)
 
 ## 3. Wi-Fi SoC 认证指南
 
