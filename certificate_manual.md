@@ -12,7 +12,17 @@ AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件�
 
 ### 2.1 下载测试用例集
 
-[AliOS Things API兼容性测试用例集](https://github.com/alibaba/AliOS-Things/blob/master/test/testcase/certificate_test)随AliOS Things在GitHub开源，用户下载AliOS Things源码后，在`{AliOS-Things-Root}/test/testcase/certificate_test`目录下可以找到测试用例集源码。
+[AliOS Things API兼容性测试用例集](https://github.com/alibaba/AliOS-Things/blob/master/test/testcase/certificate_test)随AliOS Things在GitHub开源，用户下载AliOS Things源码后，在`{AliOS-Things-Root}/test/testcase/certificate_test`目录下可以找到测试用例集源码，文件目录结构如下：
+
+```
+  .
+  |___aos_test.c              # aos_* API测试用例集
+  |___rhino_test.c            # krhino_* API测试用例集
+  |___certificate_test.mk     # gcc编译使用的Makefile
+  |___cutest                  # API测试框架
+      |___cut.c
+      |___cut.h
+```
 
 ### 2.2 移植测试用例集
 
