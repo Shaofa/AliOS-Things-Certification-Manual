@@ -4,7 +4,7 @@
 
 # ![](/assets/certification_flowchart1.png)
 
-# 2. 商家流程
+## 2. 商家流程
 
 ![](/assets/certification_flowchart2.png)
 
