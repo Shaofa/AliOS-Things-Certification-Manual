@@ -19,8 +19,10 @@ AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件�
 ```
 
 > `aos_test.c`与`rhino_test.c`功能相同，rhino\_test.c针对只移植了rhino微内核的MCU，通常二者选其一
+>
+> 下载地址：[www.github.com/alibaba/AliOS-Things.git](/www.github.com/alibaba/AliOS-Things.git)
 
-## 2. 移植测试用例集
+## 2. 执行测试用例集
 
 ### 2.1 修改测试用例集源码
 
@@ -80,6 +82,4 @@ IoT调试测试工具使用如下：
 
 ![](/assets/certification_api_tool.png)  
 ![](/assets/certification_api_tool2.png)
-
-
 
