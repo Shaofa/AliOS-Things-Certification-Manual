@@ -1,7 +1,5 @@
 # AliOS Things API 兼容性认证指南
 
----
-
 AliOS Things API兼容性测试是为了保证AliOS Things移植到不同硬件平台后保持良好的兼容性，AliOS Things提供API兼容性测试用例集，用户将用例集移植到硬件平台后，通过工具导出API兼容性测试报告。详细测试步骤见下文。
 
 ## 1. 下载测试用例集
@@ -72,7 +70,7 @@ void certificate_test(void);
 
 测试固件在开发板上成功运行后，使用[IoT调试测试工具](http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT调试测试工具.exe)将测试结果导出为PDF文档，该文档将作为AliOS Things API兼容性测试报告在认证申请阶段提交。
 
-> IoT调试测试工具下载地址：[http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT%E8%B0%83%E8%AF%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.exe](http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT%E8%B0%83%E8%AF%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.exe)
+> IoT调试测试工具下载地址：[http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT%E8%B0%83%E8%AF%95%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.exe](http://alios-things.oss-cn-shanghai.aliyuncs.com/AliOSThings/IoT调试测试工具.exe)
 
 IoT调试测试工具使用如下：
 
