@@ -4,7 +4,7 @@
 
 ## 1. AliOS Things认证框架
 
-![](/res/certificate_framework.png)
+![](/assets/certificate_framework.png)
 
 > **AliOS Things API兼容性测试：**所有类型的芯片都需要测试的基础项  
 > **协议相关测试**：只针对WiFi SoC和蓝牙SoC  
@@ -90,15 +90,20 @@ IoT调试测试工具使用如下：
 * 测试过程中，显示测试进度、用例执行情况、测试用例集的配置信息等
 * 测试成功后，`导出测试报告`将使能，用户可导出PDF格式的测试报告，见下图
 
-![](/assets/certification_api_tool.png)![](/assets/certification_api_tool2.png)
+![](/assets/certification_api_tool.png)
+![](/assets/certification_api_tool2.png)
 
 ## 3. Wi-Fi SoC 认证指南
+Wi-Fi SoC通常包含以下测试项（实际移植情况可能存在差异）：
+- AliOS Things API兼容性测试（必测， 见`2. AliOS Things API 兼容性认证指南`）
+- AliOS Things 通道测试（Alink、MQTT或者LinkKita）(必测，三选一)
+- AliOS Things uMesh测试（若未移植，则无需测试）
+- AliOS Things FOTA测试（必测）
 
-### 3.1 API兼容性测试
+### 用例生成
+AliOS Things认证测试报告中典型配置如下：
 
-见`2. AliOS Things API 兼容性认证指南`
-
-### 3.2 用例生成
+![](/assets/certification_config_wifi_soc.png)
 
 ## 4. Wi-Fi + MCU 认证指南
 
@@ -114,7 +119,11 @@ IoT调试测试工具使用如下：
 
 #### 4.2.2 填写配置信息
 
-WiF
+Wi-Fi+MCU的认证形式一般情况下包含以下认证项：
+1. API兼容性测试（必测）
+2. 通道测试
+3. FOTA测试（必测）
+4. 安全（选测）
 
 ## 5. MCU 认证指南
 
