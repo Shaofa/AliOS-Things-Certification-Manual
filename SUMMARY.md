@@ -10,7 +10,7 @@
   * [2.5 AliOS Things 蓝牙 SoC 认证指南](certificate_manual/certificate_manual_ble_soc.md)
   * [2.6 AliOS Things MCU+LoRa 认证指南](certificate_manual/certificate_manual_mcu_lora.md)
 * [3. AliOS Things 认证规范](certificate_docs/certificate_docs.md)
-  * [3.1 AliOS Things API兼容性测试规范](certificate_docs/certificate_docs_api.md)
-  * [3.2 AliOS Things 通道测试规范](certificate_docs/certificate_docs_channel.md)
+  * [3.1 AliOS Things API兼容性认证规范](certificate_docs/certificate_docs_api.md)
+  * [3.2 AliOS Things 通道认证规范](certificate_docs/certificate_docs_channel.md)
 * [4. FAQ](certificate_faq.md)
 
