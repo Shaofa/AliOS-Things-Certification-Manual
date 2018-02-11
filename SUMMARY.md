@@ -12,5 +12,8 @@
 * [3. AliOS Things 认证规范](certificate_docs/certificate_docs.md)
   * [3.1 AliOS Things API兼容性认证规范](certificate_docs/certificate_docs_api.md)
   * [3.2 AliOS Things 通道认证规范](certificate_docs/certificate_docs_channel.md)
+  * [3.3 AliOS Things 安全认证规范](/certificate_docs/certificate_docs_security.md)
 * [4. FAQ](certificate_faq.md)
+
+
 
