@@ -12,8 +12,9 @@
 * [3. AliOS Things 认证规范](certificate_docs/certificate_docs.md)
   * [3.1 AliOS Things API兼容性认证规范](certificate_docs/certificate_docs_api.md)
   * [3.2 AliOS Things 通道认证规范](certificate_docs/certificate_docs_channel.md)
-  * [3.3 AliOS Things FOTA认证规范](/certificate_docs/certificate_docs_fota.md)
-  * [3.4 AliOS Things 安全认证规范](/certificate_docs/certificate_docs_security.md)
+  * [3.3 AliOS Things uMesh认证规范](/certificate_docs/certificate_docs_umesh.md)
+  * [3.4 AliOS Things FOTA认证规范](/certificate_docs/certificate_docs_fota.md)
+  * [3.5 AliOS Things 安全认证规范](/certificate_docs/certificate_docs_security.md)
 * [4. FAQ](certificate_faq.md)
 
 
