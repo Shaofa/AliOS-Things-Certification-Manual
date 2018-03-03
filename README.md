@@ -11,4 +11,4 @@
 * AliOS Things 安全认证
 * 等
 
-为保证质量，用户在申请认证服务之前需要自测。请首先阅读[AliOS Things 认证流程](/Shaofa/AliOS-Things-Certification-Manual/wiki/Process)和[AliOS Things 自测指南](/Shaofa/AliOS-Things-Certification-Manual/wiki/Manual)，了解认证服务的整体流程和认证需要自测的测试项。
+为保证质量，用户在申请认证服务之前需要自测。请首先阅读[AliOS Things 认证流程](/Shaofa/AliOS-Things-Certification-Manual/wiki/Process.md)和[AliOS Things 自测指南](/Shaofa/AliOS-Things-Certification-Manual/wiki/Manual)，了解认证服务的整体流程和认证需要自测的测试项。
